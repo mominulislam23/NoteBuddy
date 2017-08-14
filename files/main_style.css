@@ -5,7 +5,7 @@
  ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
  ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
  html { height: 100%; }
- body { width: 100%; height: 100%; background: ; color: #444444; letter-spacing: 0.03em; font-family: 'Josefin Sans', sans-serif; font-size: 16px; line-height: 30px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+ body { width: 100%; height: 100%; background: ; color:#551A8B; letter-spacing: 0.03em; font-family: 'Josefin Sans', sans-serif; font-size: 16px; line-height: 30px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  a { color: #333333; text-decoration: none; }
  a img { border: none; }
  h2 { padding-bottom: 15px; color: #373737; letter-spacing: 0.03em; font-family: 'Josefin Sans', sans-serif; font-weight: bold; font-size: 32px; line-height: 1.3em; }
