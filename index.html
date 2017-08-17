@@ -1,32 +1,42 @@
 <!--Template Name: vacayhome
-File Name: index.html
-
+File Name: home.html
 Author Name: ThemeVault
 Author URI: http://www.themevault.net/
 License URI: http://www.themevault.net/license/-->
 
-<!DOCindex.html
- lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="favicon.png"/>
-        <title class="tittle">NoteBuddy</title>
+        <link rel="icon" href="images/icons/favicon.png"/>
+        <title>NoteBuddy</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="bootstrap.min.css" rel="stylesheet">
-        <link href="font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/button.css">
         <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
-        <link href="stylesheet.css" rel="stylesheet">
-        <link rel="stylesheet" href="lightbox.min.css">
-        <link href="responsive.css" rel="stylesheet">
-        <script src="jquery.min.js" type="text/javascript"></script>
-        <script src="bootstrap.min.js" type="text/javascript"></script>
-        <script src="lightbox-plus-jquery.min.js" type="text/javascript"></script>
-        <script src="instafeed.min.js" type="text/javascript"></script>
-        <script src="custom.js" type="text/javascript"></script>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link href="css/responsive.css" rel="stylesheet">
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+        
+
+
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+
+
+
+    
+   
+
+  
     </head>
     <body>
         <div id="page">
@@ -38,16 +48,7 @@ License URI: http://www.themevault.net/license/-->
                             <!--                            <a href="#"> </a>
                                                         <div class="info-block"><i class="fa fa-map"></i>701 Old York Drive Richmond USA.</div>-->
                         </div>
-                        <div class="col-md-6">
-                            <div class="social-grid">
-                                <ul class="list-unstyled text-right">
-                                    <li><a><i class="fa fa-facebook"></i></a></li>
-                                    <li><a><i class="fa fa-twitter"></i></a></li>
-                                    <li><a><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -57,50 +58,38 @@ License URI: http://www.themevault.net/license/-->
                     <div class="top-row">
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-6">
-                                <div id="logo">
-                                    <a href="index.html
-                                    "><img src="images/logo.png" alt="logo"></a>
-                                    <a href="index.html
-                                    "><span>NoteBuddy</span></a>
+                                <div id="logo" class="typingtitle">
+                                    <!--<a href="home.html"><img src="images/logo.png" alt="logo"></a>-->
+                                    <a href="index.html"><span><h1>NoteBuddy</h1></span></a>
+
+
                                 </div>                       
                             </div>
-                            <div class="col-sm-6 visible-sm">
-                                
-                            </div>
-                            <div class="col-md-8 col-sm-12 col-xs-12 remove-padd">
-                                <nav class="navbar navbar-default">
-                                    <div class="navbar-header page-scroll">
-                                        <button data-target=".navbar-ex1-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
+                            
+                           
 
                                     </div>
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
-                                              <li><a data-hover="News" href="index.html
-                                                "><span>News</span></a></li>
-                                            <li><a data-hover="About"  href="aindex.html
-                                                "><span>About</span></a></li>                                        
-                                                                                   
-                                          
-                                            <li><a data-hover="Contact Us" href="conindex.html
-                                                "><span>contact Us</span></a></li>
+                                         <li><a data-hover="Contact Us" class= ""  href="contact.html"><span>contact Us</span></a></li>
+                                           
+                                            <li><a data-hover="About"  href="about.html"><span>About</span></a></li>
+                                            
+                                            <li><a data-hover="Notes" href="news.html"><span>Notes</span></a></li>
+                                             <li><a  data-hover="Home" href="index.html" class="active"><span>Home</span></a></li>
+                                           
                                         </ul>
+                                        
+            
 
                                     </div>
                                 </nav>
                             </div>
-                            <div class="col-md-2  col-sm-4 col-xs-12 hidden-sm">
-                                
-                            </div>
-                        </div>
+                            
                     </div>
                 </div>
             </header>
+            
 
 
             <!--end-->
@@ -113,27 +102,33 @@ License URI: http://www.themevault.net/license/-->
                     <li data-target="#myCarousel1" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="item active"> <img src="banner.jpg" style="width:100%; height: 500px" alt="First slide">
+                    <div class="item active"> <img src="images/banner.jpg" style="width:100%; height: 500px" alt="First slide">
                         <div class="carousel-caption">
                             <h1>NoteBuddy<br> English literature Notes For Everyone </h1>
                         </div>
                     </div>
-                    <div class="item"> <img src="Ariver.png" style="width:100%; height: 500px" alt="Second slide">
+                    <div class="item"> <img src="images/" style="width:100%; height: 500px" alt="Second slide">
                         <div class="carousel-caption">
                             <h1><br> philosophy</h1>
                         </div>
                     </div>
-                    <div class="item"> <img src="banner3.png" style="width:100%; height: 500px" alt="Third slide">
+                    <div class="item"> <img src="images/banner3.png" style="width:100%; height: 500px" alt="Third slide">
                         <div class="carousel-caption">
                             <h1>Notes On-<br>LITERATURE, PHILOSOPHY AND LITERARY THEORIES </h1>
                         </div>
                     </div>
 
                 </div>
-                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="left-arrow.png" onmouseover="this.src = 'left-arrow-hover.png'" onmouseout="this.src = 'left-arrow.png'" alt="left"></a>
-                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="right-arrow.png" onmouseover="this.src = 'right-arrow-hover.png'" onmouseout="this.src = 'right-arrow.png'" alt="left"></a>
-
+                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="images/icons/left-arrow.png" onmouseover="this.src = 'images/icons/left-arrow-hover.png'" onmouseout="this.src = 'images/icons/left-arrow.png'" alt="left"></a>
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="images/icons/right-arrow.png" onmouseover="this.src = 'images/icons/right-arrow-hover.png'" onmouseout="this.src = 'images/icons/right-arrow.png'" alt="left"></a>
+   
             </div>
+
+
+
+              <div class="buttonnotes"><a href="single-blog.html">Notes</a></div>
+
+
             <div class="clearfix"></div>
 
             
@@ -184,18 +179,15 @@ License URI: http://www.themevault.net/license/-->
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a href="single-index.html
-                                        "><img alt="image" class="img-responsive" src="Ariver.png"></a>
+                                        <a href="single-blog.html"><img alt="image" class="img-responsive" src="images/Ariver.png"></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="side-B">
                                 <div class="product-desc-side">
-                                    <h3><a href="single-index.html
-                                        ">A River</a></h3>
+                                    <h3><a href="single-blog.html">A River</a></h3>
                                     <p>“A River” is written by Attipate Krishnaswami Ramanujan who is known as one of the greatest modern poet of India. The tone of the poem is based on sarcasm and irony. The structure of the poem has been in paragraphs and single lines. There are four longer verse paragraphs and a shorter one in the beginning...</p>
-                                    <div class="links"><a href="single-index.html
-                                        ">Read more</a></div>
+                                    <div class="links"><a href="single-blog.html">Read more</a></div>
                                 </div>
                             </div>
                         </div>
@@ -204,18 +196,18 @@ License URI: http://www.themevault.net/license/-->
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a href="single-index.html
-                                        "><img src="category2.png" class="img-responsive" alt="image"></a>
+                                        <a href="single-blog.html"><img src="images/araby.jpg" class="img-responsive" alt="image"></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="side-B">
                                 <div class="product-desc-side">
-                                    <h3><a href="aindex.html
-                                        ">Araby</a></h3>
+                                    <h3><a href="araby.html">Araby</a></h3>
                                     <p>Araby is a short story by modernist writer James Joyce (1882 to 1941) which was published in 1914. As with many stories by Joyce and other modernist writers, 'Araby' employs a close first-person narrator describing the world as it appeals to his senses, and leaves the reader with only a suggested, ...</p>
-                                    <div class="links"><a href="aindex.html
-                                        ">Read more</a></div>
+
+                                    
+                                    <div class="links" href="araby.html"      ><a >Read more</a></div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -224,19 +216,16 @@ License URI: http://www.themevault.net/license/-->
                         <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
                             <div class="side-A">
                                 <div class="product-desc-side">
-                                    <h3><a href="abachindex.html
-                                        ">A Bachelor’s Complaint of the Behavior ...</a></h3>
+                                    <h3><a href="abachelor.html">A Bachelor’s Complaint of the Behavior ...</a></h3>
                                     <p>“A Bachelor’s Complaint of the Behavior of Married People” was first published in 1823 in Charles Lamb’s (1775-1834) essay collection “Essays of Elia”. This essay has a mock serious or Pseudo serious tone and it is written in an argumentative style. Charles Lamb’s essay “A Bachelor’s Complaint of the Behavior of Married People” is just ...</p>
-                                    <div class="links"><a href="abachindex.html
-                                        ">Read more</a></div>
+                                    <div class="links"><a href="abachelor.html">Read more</a></div>
                                 </div>
                             </div>
 
                             <div class="side-B">
                                 <div class="product-thumb">
                                     <div class="image txt-rgt">
-                                        <a class="arrow-left" href="single-index.html
-                                        "><img alt="imaga" class="img-responsive" src="category3.png"></a>
+                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="images/abachelor.jpg"></a>
                                     </div>
                                 </div>
                             </div>
@@ -245,19 +234,16 @@ License URI: http://www.themevault.net/license/-->
                         <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
                             <div class="side-A">
                                 <div class="product-desc-side">
-                                    <h3><a href="beowulfallegoryheroic index.html
-                                        ">beowulf allegory, heroic poem</a></h3>
+                                    <h3><a href="beowulfallegoryheroic poem.html">beowulf allegory, heroic poem</a></h3>
                                     <p>Allegory: Allegory is a form of extended metaphor in which objects and persons within a narrative are equated with meanings that lie outside the narrative. It is a type of writing that has hidden meanings, usually political or moral ones. According to J.D. Cuddon the term allegory is “any writing in verse or prose that has a double meaning”. </p>
-                                    <div class="links"><a href="beowulfallegoryheroic index.html
-                                        ">Read more</a></div>
+                                    <div class="links"><a href="beowulfallegoryheroic poem.html">Read more</a></div>
                                 </div>
                             </div>
 
                             <div class="side-B">
                                 <div class="product-thumb txt-rgt">
                                     <div class="image">
-                                        <a class="arrow-left" href="single-index.html
-                                        "><img alt="imaga" class="img-responsive" src="category4.png"></a>
+                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="images/aligory.jpg"></a>
                                     </div>
                                 </div>
                             </div>
@@ -266,6 +252,12 @@ License URI: http://www.themevault.net/license/-->
 
                     </div>
                 </div>
+
+
+                <div class="clearfix"></div>
+
+            
+            </section>
 
 
 
@@ -290,7 +282,7 @@ License URI: http://www.themevault.net/license/-->
                                     <div class="blog-view-box">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="client1.png" class="media-object">
+                                                <img src="images/client1.png" class="media-object">
                                             </div>
                                             <div class="media-body">
                                                 <h3 class="media-heading blog-title">Walter Hucko</h3>
@@ -306,7 +298,7 @@ License URI: http://www.themevault.net/license/-->
                                     <div class="blog-view-box">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="client2.png" class="media-object">
+                                                <img src="images/client2.png" class="media-object">
                                             </div>
                                             <div class="media-body">
                                                 <h3 class="media-heading blog-title">Jules Boutin</h3>
@@ -322,7 +314,7 @@ License URI: http://www.themevault.net/license/-->
                                     <div class="blog-view-box">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="client3.png" class="media-object">
+                                                <img src="images/client3.png" class="media-object">
                                             </div>
                                             <div class="media-body">
                                                 <h3 class="media-heading blog-title">Attilio Marzi</h3>
@@ -335,54 +327,9 @@ License URI: http://www.themevault.net/license/-->
                         </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
-            </section>
 
-           
-            <section class="blog-block">
-                <div class="container">
-                    <div class="row offspace-45">
-                        <div class="view-set-block">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="images/blog1.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
-                                <div class="event-blog-details">
-                                    <h4><a href="single-index.html
-                                        ">Lorem ipsum dolor sit amet</a></h4>
-                                    <h5>Post By Admin <a><i aria-hidden="true" class="fa fa-heart-o fa-lg"></i>Likes</a><a><i aria-hidden="true" class="fa fa-comment-o fa-lg"></i>comments</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornare turpis neque, eu commodo sapien porta sed. Nam ut ante turpis. Nam arcu odio, scelerisque a vehicula vitae, auctor sit amet lectus. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornard hendrerit tortor vulputate id. Vestibulum mauris nibh, luctus non maximus vitae, porttitor eget neque. Donec tristique nunc facilisis, dapibus libero ac</p>
-                                    <a class="btn btn-default" href="single-index.html
-                                    ">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row offspace-45">
-                        <div class="view-set-block">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="blog2.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
-                                <div class="event-blog-details">
-                                    <h4><a href="single-index.html
-                                        ">A River</a></h4>
-                                    <h5>Post By salsabil hayat <a><i aria-hidden="true" class="fa fa-heart-o fa-lg"></i>Likes</a><a><i aria-hidden="true" class="fa fa-comment-o fa-lg"></i>comments</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornare turpis neque, eu commodo sapien porta sed. Nam ut ante turpis. Nam arcu odio, scelerisque a vehicula vitae, auctor sit amet lectus. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornard hendrerit tortor vulputate id. Vestibulum mauris nibh, luctus non maximus vitae, porttitor eget neque. Donec tristique nunc facilisis, dapibus libero ac</p>
-                                    <a class="btn btn-default" href="single-index.html
-                                    ">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+        
 
            
             <footer>
@@ -390,19 +337,19 @@ License URI: http://www.themevault.net/license/-->
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-12 width-set-50">
                             <div class="footer-details">
-                                <h4>Get in touch</h4>
+                                <h5>Get in touch</h5>
                                 <ul class="list-unstyled footer-contact-list">
                                     <li>
                                         <i class="fa fa-map-marker fa-lg"></i>
-                                        <p>701 Old York Drive Richmond USA.</p>
+                                        <p>Dhaka,Bangladesh</p>
                                     </li>
                                     <li>
                                         <i class="fa fa-phone fa-lg"></i>
-                                        <p><a href="tel:+1-202-555-0100"> +1-202-555-0100</a></p>
+                                        <p><a href="tel:+1-202-555-0100"> +8801611******</a></p>
                                     </li>
                                     <li>
                                         <i class="fa fa-envelope-o fa-lg"></i>
-                                        <p><a href="mailto:demo@info.com"> demo@info.com</a></p>
+                                        <p><a href="mailto:demo@info.com"> salsabilhayatanannya@gmail.com</a></p>
                                     </li>
                                 </ul>
                                 <div class="footer-social-icon">
@@ -425,30 +372,14 @@ License URI: http://www.themevault.net/license/-->
                                 <h4>explore</h4>
                                 <ul class="list-unstyled footer-links">
                                     <li class="active"><a>Home</a></li>
-                                    <li><a href="aindex.html
-                                        ">About</a></li>
-                                    <li><a href="rindex.html
-                                        ">Rooms</a></li>
-                                    <li><a href="galindex.html
-                                        ">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="index.html
-                                        ">News</a></li>
-                                    <li> <a href="conindex.html
-                                        ">Contact</a></li>
+                                    <li><a href="about.html">About</a></li>
+                            
+                                    <li> <a href="news.html">nnotes</a></li>
+                                    <li> <a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="footer-details">
-                                <h4>Now On Instagram</h4>
-                                <div class="row">
-                                    <div class="instagram-images">
-                                        <div id="instafeed"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
                     
@@ -456,11 +387,25 @@ License URI: http://www.themevault.net/license/-->
             </footer>
 
            
-            <a style="display: none;" href="javascript:void(0);" class="scrollTop back-to-top" id="back-to-top">
+            <a style="display: none;" href="javascript:void(0);" class="scrollTop back-to-top"  id="back-to-top">
                 <span><i aria-hidden="true" class="fa fa-angle-up fa-lg"></i></span>
-                <span></span>
+                <span>Up</span>
             </a>
 
         </div>
-    </bodindex.html
-    >
+    <script src="jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="scrollindicator.jquery.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function () {
+  
+      $.scrollIndicator();
+      
+    });
+    </script>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    </body>
+</html>
