@@ -161,7 +161,7 @@ ul{
 
 /*common*/
 .service-block, .gallery-block, .vacation-offer-block, .resort-overview-block, .blog-block, .about-block, .contact-block,blog{
-    padding: 70px 40px 60px 50px;
+    padding: 110px 0px 50px 90px;
     font-family: 'Times New Roman'
     m
 }
@@ -244,7 +244,7 @@ ul{
     overflow: hidden;
     color: #111;
     display: inline-block;
-    font-size: 13px;
+   
     font-weight: 300;
     letter-spacing: 1px;
     margin: 10px  10px;
@@ -258,7 +258,7 @@ ul{
     background: #fff none repeat scroll 0 0;
     display: block;
     padding: 10px 15px;
-    transition: transform .6s ease 0s;
+    transition: transform .2s ease 0s;
 }
 /*service block*/
 .service-image {
@@ -482,10 +482,10 @@ ul{
   position: relative;
   text-transform:;
   padding: 20px 70px;
-  border-radius: 5px;
+  border-radius: 21px;
   box-shadow: 1px 17px 10px -10px rgba(0,0,0,0.8);
   cursor:pointer;
-  transition: all ease-in-out 350ms;
+  transition: all ease-in-out 100ms;
   justify-content:center;
   align-items: center;
    border: 0.5px solid #111;;
